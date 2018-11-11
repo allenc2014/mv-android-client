@@ -29,7 +29,7 @@ android {
     /**
      * Advanced Configuration
      */
-    def BACK_BUTTON_QUITS   = true // Use back button to quit the app?
+    def BACK_BUTTON_QUITS   = false // Use back button to quit the app?
     def SHOW_FPS            = false // Display the FPS monitor?
 
     compileSdkVersion 27
@@ -40,9 +40,9 @@ android {
         /**
          * Project Identification
          */
-        applicationId "id.application.rpgmakermv" // Change this to your applicationId.
+        applicationId "xyz.betrue.amber" // Change this to your applicationId.
         versionCode 1 // Set this to a higher number for game updates.
-        versionName "1.0" // This is the version that the player sees.
+        versionName "0.1" // This is the version that the player sees.
 
         targetSdkVersion 27
     }
